@@ -58,6 +58,7 @@
             </LinearLayout>
 
             <TextView
+                android:fontFamily="@font/latoreg"
                 android:id="@+id/name"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:layout_width="0dp"
@@ -69,6 +70,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/image" />
 
             <TextView
+                android:fontFamily="@font/latoreg"
                 android:id="@+id/name1"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:layout_width="wrap_content"
@@ -80,6 +82,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/image" />
 
             <TextView
+                android:fontFamily="@font/latoreg"
                 android:id="@+id/desc"
                 style="@style/TextAppearance.AppCompat.Body1"
                 android:layout_width="0dp"
@@ -94,6 +97,7 @@
 
             <TextView
                 android:id="@+id/desc1"
+                android:fontFamily="@font/latoreg"
                 style="@style/TextAppearance.AppCompat.Body1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -137,6 +141,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Date  "
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -146,6 +151,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="11/11/2020-02:29 pm"
                         android:textColor="#000" />
 
@@ -161,6 +167,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Base  "
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -170,6 +177,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:text="10.0Pkr"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                 </RelativeLayout>
@@ -184,6 +192,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Amount Per Km"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -193,6 +202,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="61/7Pkr"
                         android:textColor="#000" />
 
@@ -208,6 +218,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Amount Per Min"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -218,6 +229,7 @@
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
                         android:text="47.09Pkr"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                 </RelativeLayout>
@@ -232,6 +244,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Actual Amount"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -242,6 +255,7 @@
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
                         android:text="130 Pkr"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                 </RelativeLayout>
@@ -256,6 +270,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Peak Factor"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -265,6 +280,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="1.0x"
                         android:textColor="#000" />
 
@@ -280,6 +296,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Total Balance"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -289,6 +306,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="9 pkr"
                         android:textColor="#000" />
 
@@ -304,6 +322,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Total Amount"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -313,6 +332,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="82Pkr"
                         android:textColor="#000" />
 
@@ -328,6 +348,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Remaining"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -337,6 +358,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="9 pkr"
                         android:textColor="#000" />
 
@@ -352,6 +374,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Promo"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -361,6 +384,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="39 pkr"
                         android:textColor="#000" />
 
@@ -376,6 +400,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:text="Total Amount"
+                        android:fontFamily="@font/latoreg"
                         android:textColor="#000" />
 
                     <TextView
@@ -385,6 +410,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="29dp"
                         android:gravity="right"
+                        android:fontFamily="@font/latoreg"
                         android:text="130.0 pkr"
                         android:textColor="#000" />
 
@@ -426,11 +452,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
+                android:fontFamily="@font/latoreg"
                 android:text="Muhammad Arif" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/latoreg"
                 android:text="Rckshaw Driver" />
         </LinearLayout>
 

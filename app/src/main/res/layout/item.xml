@@ -36,6 +36,7 @@
                 android:paddingEnd="8dp"
                 android:text="this souce location"
                 android:textColor="#000"
+                android:fontFamily="@font/latoreg"
                 android:textSize="20sp"
 
                 />
@@ -61,6 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="this destination"
+                android:fontFamily="@font/latoreg"
                 android:textSize="10sp" />
         </LinearLayout>
 
@@ -82,6 +84,7 @@
                     android:id="@+id/textViewRide"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/latoreg"
                     android:text="Cancelled by you" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
