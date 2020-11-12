@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
             in.putExtra("Destination",thisItem.getDescription());
 
             startActivity(in);
-finish();
 
         }
     };
@@ -82,49 +81,49 @@ finish();
         mTestItemList = new ArrayList<>();
         TestItem testItem;
 
-        testItem = new TestItem("Test Item 1", "This is test item 1");
+        testItem = new TestItem("Test Item 1", "This is test item 1","Cancelled by you");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 2", "This is test item 2");
+        testItem = new TestItem("Test Item 2", "This is test item 2","Trip is ended");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 3", "This is test item 3");
+        testItem = new TestItem("Test Item 3", "This is test item 3","Cancelled by you");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 4", "This is test item 4");
+        testItem = new TestItem("Test Item 4", "This is test item 4","Cancelled by you");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 5", "This is test item 5");
+        testItem = new TestItem("Test Item 5", "This is test item 5","Trip is ended");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 6", "This is test item 6");
+        testItem = new TestItem("Test Item 6", "This is test item 6","Cancelled by you");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 7", "This is test item 7");
+        testItem = new TestItem("Test Item 7", "This is test item 7","Trip is ended");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 8", "This is test item 8");
+        testItem = new TestItem("Test Item 8", "This is test item 8","Cancelled by you");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 9", "This is test item 9");
+        testItem = new TestItem("Test Item 9", "This is test item 9","Trip is ended");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 10", "This is test item 10");
+        testItem = new TestItem("Test Item 10", "This is test item 10","Cancelled by you");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 11", "This is test item 11");
+        testItem = new TestItem("Test Item 11", "This is test item 11","Trip is ended");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 12", "This is test item 12");
+        testItem = new TestItem("Test Item 12", "This is test item 12","Trip is ended");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 13", "This is test item 13");
+        testItem = new TestItem("Test Item 13", "This is test item 13","Cancelled by you");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 14", "This is test item 14");
+        testItem = new TestItem("Test Item 14", "This is test item 14","Trip is ended");
         mTestItemList.add(testItem);
 
-        testItem = new TestItem("Test Item 15", "This is test item 15");
+        testItem = new TestItem("Test Item 15", "This is test item 15","Cancelled by you");
         mTestItemList.add(testItem);
     }
 }

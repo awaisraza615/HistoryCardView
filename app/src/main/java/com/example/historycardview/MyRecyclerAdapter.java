@@ -28,6 +28,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
     public void onBindViewHolder(MyViewHolder holder, int position) {
         holder.title.setText(mTestItemList.get(position).getTitle());
         holder.description.setText(mTestItemList.get(position).getDescription());
+        holder.textViewRide.setText(mTestItemList.get(position).getTextViewRide());
     }
 
     @Override
@@ -43,11 +44,13 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView title;
         public TextView description;
+        public TextView textViewRide;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.textViewDesc);
             description = itemView.findViewById(R.id.textViewHead);
+            textViewRide = itemView.findViewById(R.id.textViewRide);
 
             //TODO: Step 3 of 4: setTag() as current view holder along with
             // setOnClickListener() as your local View.OnClickListener variable.
